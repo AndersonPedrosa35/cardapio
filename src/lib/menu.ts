@@ -9,7 +9,7 @@ export type Data = {
 type alimentosProps = {
   hotDog:alimentoItemProps[]
   batatas: alimentoItemProps[],
-  hamburgues: any
+  hamburguers: any
   combo: alimentoItemProps[]
 }
 
