@@ -122,10 +122,12 @@ body {
 
 .containerWhoIAm h3 span:last-child b:first-child {
   font-size: 4.5rem;
+  color: #AD8E0E;
 }
 
 .containerWhoIAm h3 span:last-child b:last-child {
   text-decoration: underline;
+  color: #AD8E0E;
 }
 
 .containerWhoIAm > section {
