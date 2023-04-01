@@ -103,6 +103,8 @@ body {
 .containerWhoIAm {
   display: flex;
   justify-content: space-between;
+  flex-flow: wrap row;
+  align-items: center;
   width: 100%;
   padding: 1rem 2rem 0;
 }
@@ -209,6 +211,13 @@ body {
   filter: brightness(1) contrast(1.2) saturate(1.1);
 }
 
+@media (max-width: 480px) {
+  .sectionCombos > h3 {
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+  }
+}
+
 .sectionCombos > h3 {
   font-size: 4rem;
   text-align: center;
@@ -220,6 +229,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-right: 1rem;
+  flex-flow: wrap row;
 }
 
 .containerCombos .imageItemContainer .textItemContainer {
