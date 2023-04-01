@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Data } from './api/menu'
-import getMenu, { alimentoItemProps } from '@/lib/menu'
+import getMenu, { alimentoItemProps, Data } from '@/lib/menu'
 import Item from '@/components/Item'
 
 export default function Home({ menu }: { menu: Data }) {
